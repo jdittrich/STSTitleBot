@@ -1,4 +1,4 @@
-#STS Title Bot#
+# STS Title Bot #
 
 Is a grammar for creating possible but artificial titles for [Science and Technology Studies](https://en.wikipedia.org/wiki/Science_and_technology_studies) publications.
 It was modeled by clicking on [EASST](https://easst2018.easst.net/) panels and looking at the publication titles for an extended amount of time.
