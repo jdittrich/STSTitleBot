@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style> body { padding-top: 50px; padding-bottom: 20px; } </style>
+
+</head>
+
+<body>
+  <h2>Example Output</h2>
+  <p>Reload to generate new output</p>
+  <div id="output"></div>
+  <h2>The Grammar</h2>
+  <pre id="grammar"></pre>
+
+  <script type="module">
+    import tracery from './libraries/tracery.js'; //needs the "new" version of tracery (see branches in tracery repo)
+    import grammarSource from './grammar.js'; 
+    
+    //generate trace
+    var grammarCompiled = tracery.createGrammar(grammarSource);
+
+    grammarCompiled.addModifiers(tracery.baseEngModifiers);
+
+    var text = [];
+
+    for(var i= 0;i<10; i++){ //show some example sentences 
+      text[i]=grammarCompiled.flatten(grammarSource.origin) 
+    }
+    document.getElementById("output").innerHTML = text.join("<br>");
+    document.getElementById("grammar").innerHTML = JSON.stringify(grammarSource, null, '\t');
+  </script>
+</body>
+
+</html>
