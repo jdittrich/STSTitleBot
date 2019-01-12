@@ -16,7 +16,7 @@ Extensions should
 2. Be modeled on real world STS publications
 3. Not generate inflammatory sentences/titles
 
-## Licenses## 
+## Licenses ## 
 
 [Tracery is licensed](https://github.com/galaxykate/tracery/blob/master/LICENSE.MD) under [Apache 2 License](http://www.apache.org/licenses/LICENSE-2.0)
 STS Title Bot is licensed under Apache 2, too. 
