@@ -22,13 +22,17 @@ export default {
     "scaffolding",
     "establishing",
     "intersecting",
-    "unmaking"
+    "unmaking",
+    "engineering",
+    "(en)counting",
+    "encounting"
   ],
   "vagueNoun": [
     "inaccessibility",
     "interface",
     "contour",
     "sphere",
+    "matters",
     "togetherness",
     "exploration",
     "politic",
@@ -48,16 +52,27 @@ export default {
     "materiality",
     "immateriality",
     "development",
+    "enterprise",
     "mess",
     "commodification",
-    "collaboration"
+    "collaboration",
+    "actor",
+    "significance",
+    "matter",
+    "encounters",
+    "resonance",
+    "ambiguity"
   ],
   "method": [
     "ethnographic",
     "performative",
     "interdisciplinary",
     "feminist",
-    "reflexive"
+    "reflexive",
+    "postcolonialist",
+    "artistical",
+    "anthropological",
+    "practice-based"
   ],
   "nounCountable": [
     "laboratory",
@@ -79,12 +94,17 @@ export default {
     "data",
     "art",
     "power",
-    "work"
+    "work",
+    "business",
+    "democracy",
+    "software",
+    "technology"
   ],
   "adjective": [
     "public",
     "interdisciplinary",
     "capitalist",
+    "involved",
     "postmodern",
     "dystopian",
     "utopian",
@@ -93,15 +113,26 @@ export default {
     "scientific",
     "algorithmic",
     "medical",
+    "epistemical",
     "biosocial",
     "emergent",
     "community-based",
     "everyday",
     "unexplained",
-    "techno-scientific"
+    "techno-scientific",
+    "techno-legal",
+    "engaged",
+    "situated"
+  ],
+  "publicationThing":[
+    "perpective on",
+    "study of",
+    "case study of",
+    "investigation of"
   ],
   "century": "#nounUncountable# in the 21st century",
   "doingPart": "#vagueVerb# the #vagueNoun# of the #adjective# #vagueNoun#",
+  "xOfSomething": "#vagueNoun# of the #adjective# #vagueNoun#",
   "thingAs":"#adjective# #vagueNoun.s# for #vagueVerb# #vagueNoun.s#",
   "methodUse":"#vagueVerb# #vagueNoun.s# from a #method# perspective",
   "xAsY": "#nounUncountable# as #vagueNoun#",
@@ -110,19 +141,23 @@ export default {
   "question": "What is #nounUncountable#",
   "list": "#vagueVerb# #vagueNoun#, #vagueNoun# and #vagueNoun#",
   "whatIs":"What is a #nounCountable#",
+  "aStudyOn":"#publicationThing.a# #adjective# #nounUncountable#",
   "preColon": [
     "#xAndY#:",
     "#xAsY#:",
     "#century#:",
     "#just#:",
     "#question#?",
-    "#whatIs#?"
+    "#whatIs#?",
+    "#xOfSomething#"
   ],
   "postColon": [
     "#list#",
     "#doingPart#",
     "#thingAs#",
-    "#methodUse#"
+    "#methodUse#",
+    "#aStudyOn#"
+    
   ],
   "origin": "#preColon.capitalize# #postColon.capitalize#"
 }
