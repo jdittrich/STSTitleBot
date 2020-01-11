@@ -59,7 +59,7 @@ export default {
     "actor",
     "significance",
     "matter",
-    "encounters",
+    "encounter",
     "resonance",
     "ambiguity"
   ],
