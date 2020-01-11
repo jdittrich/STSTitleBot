@@ -149,7 +149,7 @@ export default {
     "#just#:",
     "#question#?",
     "#whatIs#?",
-    "#xOfSomething#"
+    "#xOfSomething#:"
   ],
   "postColon": [
     "#list#",
