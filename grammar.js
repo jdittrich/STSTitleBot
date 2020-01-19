@@ -35,7 +35,7 @@ export default {
     "matters",
     "togetherness",
     "exploration",
-    "politic",
+    "politics",
     "experiment",
     "experience",
     "domination",
