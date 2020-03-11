@@ -40,10 +40,9 @@ export default {
     "interface",
     "contour",
     "sphere",
-    "matters",
+    "matter",
     "togetherness",
     "exploration",
-    "politics",
     "experiment",
     "experience",
     "domination",
@@ -76,7 +75,8 @@ export default {
     "zeitgeist",
     "movement",
     "inclusion",
-    "paradox"
+    "paradox",
+    "critiqe"
   ],
   "method": [
     "ethnographic",
@@ -109,7 +109,6 @@ export default {
     "cyborg"
   ],
   "nounUncountable": [
-    "soil",
     "water",
     "waste",
     "code",
@@ -125,7 +124,8 @@ export default {
     "governance",
     "nature",
     "decay",
-    "pollution"
+    "pollution",
+    "politics"
   ],
   "adjective": [
     "public",
@@ -152,26 +152,33 @@ export default {
     "situated",
     "hybrid"
   ],
-  "publicationThing":[
+  "publicationThing": [
     "perpective on",
     "study of",
     "case study of",
     "investigation of",
-    "writing about"   
+    "writing about"
   ],
   "century": "#nounUncountable# in the 21st century",
   "doingPart": "#vagueVerb# the #vagueNoun# of the #adjective# #vagueNoun#",
   "xOfSomething": "#vagueNoun# of the #adjective# #vagueNoun#",
-  "thingAs":"#adjective# #vagueNoun.s# for #vagueVerb# #vagueNoun.s#",
-  "methodUse":"#vagueVerb# #vagueNoun.s# from #method.a# perspective",
+  "thingAs": "#adjective# #vagueNoun.s# for #vagueVerb# #vagueNoun.s#",
+  "methodUse": "#vagueVerb# #vagueNoun.s# from #method.a# perspective",
   "xAsY": "#nounUncountable# as #vagueNoun#",
   "just": "“It is just #nounUncountable#!”",
   "xAndY": "#nounUncountable# and #vagueNoun.s#",
   "question": "What is #nounUncountable#",
   "list": "#vagueVerb# #vagueNoun#, #vagueNoun# and #vagueNoun#",
-  "whatIs":"What is #nounCountable.a#",
-  "aStudyOn":"#publicationThing.a# #adjective# #nounUncountable#",
+  "whatIs": "What is #nounCountable.a#",
+  "aStudyOn": "#publicationThing.a# #adjective# #nounUncountable#",
+  "chaintemplate": [
+    "#firstnoun.s# of #secondnoun# and the #secondnoun# of #firstnoun.s#"
+  ],
+  "chain": [
+    "#[firstnoun:#vagueNoun#][secondnoun:#vagueNoun#]chaintemplate#"
+  ],
   "preColon": [
+    "#chain#:",
     "#xAndY#:",
     "#xAsY#:",
     "#century#:",
@@ -186,8 +193,6 @@ export default {
     "#thingAs#",
     "#methodUse#",
     "#aStudyOn#"
-    
   ],
   "origin": "#preColon.capitalize# #postColon.capitalize#"
 }
-
