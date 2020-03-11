@@ -24,8 +24,16 @@ export default {
     "intersecting",
     "unmaking",
     "engineering",
-    "(en)counting",
-    "encounting"
+    "(en)countering",
+    "encountering",
+    "articulating",
+    "relating",
+    "ordering",
+    "commodifying",
+    "futuring",
+    "radicalizing",
+    "facilitating",
+    "interrogating"
   ],
   "vagueNoun": [
     "inaccessibility",
@@ -61,7 +69,14 @@ export default {
     "matter",
     "encounter",
     "resonance",
-    "ambiguity"
+    "ambiguity",
+    "multiplicity",
+    "fluidity",
+    "circulation",
+    "zeitgeist",
+    "movement",
+    "inclusion",
+    "paradox"
   ],
   "method": [
     "ethnographic",
@@ -80,11 +95,18 @@ export default {
     "subject",
     "building",
     "home",
+    "book",
+    "spreadsheet",
+    "database",
+    "cell",
     "satellite",
     "image",
     "bridge",
     "publication",
-    "ship"
+    "ship",
+    "observation",
+    "infrastructure",
+    "cyborg"
   ],
   "nounUncountable": [
     "soil",
@@ -98,7 +120,12 @@ export default {
     "business",
     "democracy",
     "software",
-    "technology"
+    "technology",
+    "education",
+    "governance",
+    "nature",
+    "decay",
+    "pollution"
   ],
   "adjective": [
     "public",
@@ -122,13 +149,15 @@ export default {
     "techno-scientific",
     "techno-legal",
     "engaged",
-    "situated"
+    "situated",
+    "hybrid"
   ],
   "publicationThing":[
     "perpective on",
     "study of",
     "case study of",
-    "investigation of"
+    "investigation of",
+    "writing about"   
   ],
   "century": "#nounUncountable# in the 21st century",
   "doingPart": "#vagueVerb# the #vagueNoun# of the #adjective# #vagueNoun#",
