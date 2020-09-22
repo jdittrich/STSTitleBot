@@ -76,7 +76,7 @@ export default {
     "movement",
     "inclusion",
     "paradox",
-    "critiqe"
+    "critique"
   ],
   "method": [
     "ethnographic",
