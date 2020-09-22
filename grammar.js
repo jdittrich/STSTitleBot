@@ -84,8 +84,8 @@ export default {
     "interdisciplinary",
     "feminist",
     "reflexive",
-    "postcolonialist",
-    "artistical",
+    "postcolonial",
+    "artistic",
     "anthropological",
     "practice-based"
   ],
