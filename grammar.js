@@ -31,7 +31,7 @@ export default {
     "articulating",
     "relating",
     "ordering",
-    "decentering",
+    "de-centering",
     "commodifying",
     "futuring",
     "radicalizing",
@@ -39,6 +39,7 @@ export default {
     "interrogating"
   ],
   "vagueNoun": [
+    "entanglement",
     "inaccessibility",
     "interface",
     "contour",
@@ -106,6 +107,7 @@ export default {
     "book",
     "spreadsheet",
     "database",
+    "datamodel",
     "cell",
     "satellite",
     "image",
@@ -155,6 +157,7 @@ export default {
     "entangled",
     "scientific",
     "algorithmic",
+    "ephemeral",
     "medical",
     "epistemical",
     "biosocial",
