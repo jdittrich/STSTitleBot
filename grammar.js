@@ -80,6 +80,7 @@ export default {
     "encounter",
     "resonance",
     "ambiguity",
+	"rationality",
     "multiplicity",
     "fluidity",
     "circulation",
@@ -142,6 +143,7 @@ export default {
     "software",
     "technology",
     "education",
+	"ecology",
     "governance",
     "nature",
     "decay",
@@ -203,7 +205,7 @@ export default {
   "list": "#vagueVerb# #vagueNoun#, #vagueNoun# and #vagueNoun#",
   "whatIs": "What is #nounCountable.a#",
   "aStudyOn": "#publicationThing.a# #adjective# #nounUncountable#",
-  "society":"#vagueVerb# the #adjective# society", 
+  "society":"#vagueVerb# the #adjective# society",
   "chaintemplate": [
     "#firstnoun.s# of #secondnoun# and the #secondnoun# of #firstnoun.s#"
   ],
